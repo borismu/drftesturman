@@ -5,8 +5,6 @@ After cloning repository run following commands and follow prompts to setup cred
 
 docker-compose up --build
 
-docker-compose run django python manage.py migrate
-
 docker-compose run django python manage.py createsuperuser
 
 
